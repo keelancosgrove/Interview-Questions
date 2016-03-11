@@ -17,6 +17,7 @@ public class chapter1 {
 		}
 	}
 	
+	//Calculates the number of paths from the top left corner to bottom right corner of a nxm matrix, where paths can only cross entries that are true in isValid
 	public int numPaths(boolean[][] isValid, int n, int m){
 		int[][] count = new int[n][m];
 		for (int i=0;i<n;i++){
