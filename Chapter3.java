@@ -41,7 +41,7 @@ public class Chapter3 {
 		int size = 0;
 		void push(E item){
 			Node<E> t = new Node<E>(item);
-			top.next = t;
+			t.next = top;
 			top = t;
 			size += 1;
 		}
